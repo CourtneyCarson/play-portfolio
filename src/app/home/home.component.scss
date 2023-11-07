@@ -41,7 +41,9 @@
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Grandslang roman, sans-serif;
+  // font-family: Grandslang roman, sans-serif;
+  font-family: "Inknut Antiqua", serif;
+
   font-size: 20px;
   font-weight: 500;
   line-height: 1.75em;
@@ -63,12 +65,10 @@
   position: relative;
 }
 
-
 .content.content-main {
   margin-left: -10%;
   padding-top: 90%;
 }
-
 
 .section-right {
   width: 65%;
@@ -111,7 +111,9 @@
   text-align: left;
   text-transform: uppercase;
   border: 0 solid #000;
-  font-family: Grandslang roman, sans-serif;
+  // font-family: Grandslang roman, sans-serif;
+  font-family: "Inknut Antiqua", serif;
+  // font-family: 'Ubuntu', sans-serif;
   font-size: 11vw;
   font-weight: 300;
   line-height: 0.95em;
@@ -120,4 +122,78 @@
     font-size 0.3s ease-in-out;
   display: block;
   position: relative;
+}
+
+@media screen and (max-width: 479px) {
+  .section-right {
+    padding-top: 0;
+  }
+
+  .header-mask {
+    margin-bottom: 1vh;
+  }
+
+  .section-left {
+    padding-top: 12%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    max-width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .section-right {
+    padding-top: 2vh;
+  }
+
+  .section-left {
+    padding-top: 20%;
+  }
+
+  .nav-link {
+    letter-spacing: -1px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .wrapper {
+    max-width: 80%;
+    padding-left: 5%;
+  }
+  .section-left {
+    width: 100%;
+    height: auto;
+    padding-top: 30%;
+    position: static;
+  }
+  .section-right {
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+    display: block;
+  }
+  .header-mask {
+    padding-top: 10%;
+  }
+
+  .content.content-main {
+    margin-left: 0%;
+    padding-top: 0%;
+  }
+
+  .content.content-main {
+    margin-left: 0%;
+    padding-top: 0%;
+  }
+  .nav-item {
+    padding-bottom: 2%;
+    display: block;
+  }
+
+  .nav-link {
+    letter-spacing: -5px;
+    font-size: 15vw;
+  }
 }

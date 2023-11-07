@@ -1,0 +1,126 @@
+.wrapper {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-right: 5%;
+  position: relative;
+}
+
+.section-left.section-long {
+  width: 100%;
+  height: auto;
+  max-width: 768px;
+  padding-top: 10%;
+  padding-bottom: 12%;
+  position: relative;
+}
+
+.section-left {
+  width: 25%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  position: fixed;
+}
+
+.header-mask {
+  margin-bottom: 2vh;
+  padding-top: 5%;
+  overflow: hidden;
+}
+
+.header {
+  text-align: left;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Grandslang roman, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.75em;
+  position: relative;
+}
+
+.header.header-large.align-left {
+  text-align: left;
+}
+
+.header.header-large {
+  text-align: center;
+  letter-spacing: 0;
+  text-transform: none;
+  font-family: Grandslang roman, sans-serif;
+  font-size: 14vw;
+  font-weight: 300;
+  line-height: 1em;
+}
+
+.description-static.description-long {
+  max-width: 75%;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  line-height: 1.9em;
+}
+
+.description-static {
+  max-width: 90%;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.9em;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.quote {
+  padding-bottom: 2%;
+  font-family: Grandslang roman, sans-serif;
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 1.3em;
+  display: block;
+}
+
+.button {
+  color: #ece7e1;
+  letter-spacing: 1px;
+  background-color: #1a1818;
+  border-radius: 50px;
+  padding: 20px 60px;
+  font-family: Grandslang roman, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  transition: padding .25s ease-in-out;
+}
+
+.w-button {
+  color: #fff;
+  line-height: inherit;
+  cursor: pointer;
+  background-color: #3898ec;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.profile-img {
+  width: 50%;
+  margin-top: 10%;
+  margin-right: -50%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
