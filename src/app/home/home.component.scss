@@ -136,6 +136,10 @@
   .section-left {
     padding-top: 12%;
   }
+
+  .nav {
+    padding-top: 10%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -156,6 +160,10 @@
   .nav-link {
     letter-spacing: -1px;
   }
+
+  .nav {
+    padding-top: 2%;
+  }
 }
 @media screen and (max-width: 991px) {
   .wrapper {
@@ -174,6 +182,7 @@
     padding-top: 0;
     display: block;
   }
+
   .header-mask {
     padding-top: 10%;
   }
@@ -183,9 +192,9 @@
     padding-top: 0%;
   }
 
-  .content.content-main {
-    margin-left: 0%;
-    padding-top: 0%;
+  .nav {
+    padding-top: 10%;
+    padding-left: 0%;
   }
   .nav-item {
     padding-bottom: 2%;
@@ -197,3 +206,5 @@
     font-size: 15vw;
   }
 }
+
+
